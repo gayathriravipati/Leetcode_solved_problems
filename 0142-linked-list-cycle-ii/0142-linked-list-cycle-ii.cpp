@@ -21,6 +21,6 @@ public:
                 temp = temp->next;
             }
         }
-        return 0;
+        return NULL;
     }
 };
