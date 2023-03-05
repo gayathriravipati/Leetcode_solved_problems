@@ -40,8 +40,8 @@ public:
         }
         
         sort(v.begin(),v.end());
-        reverse(v.begin(),v.end());
+        //reverse(v.begin(),v.end());
         //for(int i=0)
-        return v[k-1];
+        return v[vl-k];
     }
 };
