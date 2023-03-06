@@ -14,13 +14,11 @@ public:
         for(int i=1;i<=n;i++){
             if(s.find(i)==s.end()){
                 c++;
-                cout << i << " ";
                 if(c==k){
                     return i;
                 }
             }
         }
-        cout << endl;
         while(c<k){
             n++;
             cout << n << " ";
