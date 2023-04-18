@@ -16,7 +16,6 @@ public:
         }
         while(j<=l2-1){
                 fs = fs + word2[j];
-                cout << fs << endl;
                 j++;
         }
         return fs;
