@@ -15,18 +15,18 @@ public:
                 ans[i][right] = num++;
             }
             right--;
-            if (top <= bottom) {
+            
                 for (int i = right; i >= left; i--) {
                     ans[bottom][i] = num++;
                 }
                 bottom--;
-            }
-            if (left <= right) {
+            
+           
                 for (int i = bottom; i >= top; i--) {
                     ans[i][left] = num++;
                 }
                 left++;
-            }
+            
         }
         return ans;
     }
