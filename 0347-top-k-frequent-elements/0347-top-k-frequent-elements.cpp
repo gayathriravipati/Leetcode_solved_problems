@@ -19,10 +19,6 @@ public:
             i--;
             k--;
         }
-        // vector<int>t;
-        // for(int i=0;i<k;i++){
-        //     t.push_back(res[i]);
-        // }
         return res;
     }
 };
