@@ -12,7 +12,7 @@ public:
             if(nums[i] > so){
                 return true;
             }
-            else if(nums[i] > fo && nums[i] < so){
+            else if(nums[i] > fo){
                 so = nums[i];
             }
             else if(nums[i] < fo){
