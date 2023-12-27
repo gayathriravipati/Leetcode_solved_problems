@@ -38,7 +38,7 @@ private:
         for (int i = 1; i <= k; i++) {
             ways = (ways + recursion(dp, n - 1, k, target - i)) % mod;
         }
-        dp[n][target] = ways % mod; 
+        dp[n][target] = ways; 
         return dp[n][target];
     }
 };
