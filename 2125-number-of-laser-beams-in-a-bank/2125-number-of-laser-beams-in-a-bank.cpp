@@ -18,7 +18,7 @@ public:
             if(arr[i] > 0){
                 int t = arr[i];
                 for(int j = i+1; j<l;j++){
-                    if(arr[j] > 0 && j-i >= 1){
+                    if(arr[j] > 0){
                         res = res + t * arr[j];
                         break;
                     }
