@@ -15,9 +15,9 @@ public:
         
         sort(res.begin(),res.end());
         
-        for(int i=0;i<res.size();i++){
-            cout << res[i] << " ";
-        }
+        // for(int i=0;i<res.size();i++){
+        //     cout << res[i] << " ";
+        // }
         
         int i;
         for(i=0;i<res.size();i++){
