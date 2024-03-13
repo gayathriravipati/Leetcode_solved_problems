@@ -7,7 +7,7 @@ class Solution {
         while(n>0){
             int ts = (n*(n+1)) / 2;
             int dv = ns - ts + n;
-            System.out.println(n + " " + ts + " " + dv);
+            // System.out.println(n + " " + ts + " " + dv);
             if(ts==dv){
                 return n;
             }
