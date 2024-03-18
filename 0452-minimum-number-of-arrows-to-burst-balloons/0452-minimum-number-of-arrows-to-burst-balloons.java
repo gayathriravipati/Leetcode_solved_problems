@@ -12,7 +12,6 @@ class Solution {
         for(int i = 1; i < l; i++) {
             if(points[i][0] <= te) {
                 te = Math.min(te, points[i][1]);
-                continue;
             } else {
                 c++;
                 te = points[i][1];
