@@ -7,12 +7,10 @@ class Solution {
             if(!st.isEmpty()){
                 Character ch = st.peek();
                 if(Math.abs(ch - s.charAt(i)) == 32){
-                    System.out.println("here");
                     st.pop();
                 }
                 else{
                     st.push(s.charAt(i));
-                    System.out.println(s.charAt(i));
                 }
             }
              else{
@@ -27,7 +25,6 @@ class Solution {
         }
         
         String result = sb.toString();
-        // System.out.println(result);
         return result;
     }
 }
