@@ -1,7 +1,6 @@
 class Solution {
     public String minRemoveToMakeValid(String s) {
         int open = 0;
-        int closed = 0;
         StringBuilder sb = new StringBuilder();
         
         
