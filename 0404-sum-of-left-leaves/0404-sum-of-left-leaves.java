@@ -14,28 +14,20 @@
  * }
  */
 class Solution {
-    private boolean validateleft(TreeNode root){
-        return root != null && root.left == null && root.right == null;
+    public int sumOfLeftLeaves(TreeNode root) {
+        return processsubtree(root, false);
     }
     
-    public int sumOfLeftLeaves(TreeNode root) {
-        Stack<TreeNode>st = new Stack<>();
-        int t = 0;
-        st.push(root);
-        while(!st.empty()){
-            TreeNode node = st.pop();
-            if(node.left!=null &&validateleft(node.left)){
-                    t += node.left.val;
-            }
-            
-             if(node.left!=null){
-                st.push(node.left);
-             }
-             
-             if(node.right!=null){
-                st.push(node.right);
-             }
+    private int processsubtree(TreeNode root, boolean is_left){
+        if(root==null){
+            return 0;
         }
-        return t;
+        
+        if(root.left == null && root.right == null && is_left==true){
+            return root.val;
+        }
+            
+            
+        return processsubtree(root.left,true) + processsubtree(root.right,false);
     }
 }
