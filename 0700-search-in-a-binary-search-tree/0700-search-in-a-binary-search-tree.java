@@ -24,7 +24,7 @@ class Solution {
             return root;
         }
         else if(root.val>val){
-            System.out.println("left");
+            // System.out.println("left");
             if(root.left!=null){
                 return searchBST(root.left,val);
             }
@@ -33,7 +33,7 @@ class Solution {
             }
         }
         else{
-            System.out.println("right");
+            // System.out.println("right");
             if(root.right!=null){
                 return searchBST(root.right,val);
             }
