@@ -10,32 +10,24 @@
 
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        Map<TreeNode,TreeNode> parent = new HashMap<>();
-        Stack<TreeNode> stack = new Stack<>();
-        Set<TreeNode> ancestors = new HashSet<>();
-        stack.push(root);
-        parent.put(root,null);
+        int pval = p.val;
+        int qval = q.val;
         
-        while(!parent.containsKey(p) || !parent.containsKey(q)){
-            TreeNode node = stack.pop();
-            if(node.left!=null){
-                stack.push(node.left);
-                parent.put(node.left, node);
+        while(root!=null){
+            int val = root.val;
+            if(pval > val && qval > val){
+                root = root.right;
             }
-            if(node.right!=null){
-                stack.push(node.right);
-                parent.put(node.right, node);
+            
+            else if(pval < val && qval < val){
+                root = root.left;
             }
-        }
+            
+            else{
+                return root;
+            }
         
-        while(p!=null){
-            ancestors.add(p);
-            p = parent.get(p);
         }
-        
-        while(!ancestors.contains(q)){
-            q = parent.get(q);
-        }
-        return q;
+        return null;
     }
 }
