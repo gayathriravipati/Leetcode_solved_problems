@@ -1,26 +1,37 @@
 class Solution {
     public String reversePrefix(String word, char ch) {
-        StringBuilder sb = new StringBuilder();
+        Deque<Character> stack = new ArrayDeque<>();
+        int l = word.length();
         int i = 0;
         int f = 0;
-        while (i < word.length() && word.charAt(i) != ch) {
-            sb.insert(0, word.charAt(i));
+        while(i < l){
+            if(word.charAt(i)!=ch){
+                stack.push(word.charAt(i));
+            }
+            else{
+                f = 1;
+                break;
+            }
             i++;
         }
-
-        if (i < word.length()) {
-            f = 1;
-            sb.insert(0, word.charAt(i));
-            i++;
+        if(f==0){
+            return word;
         }
-
-        while (i < word.length()) {
+        StringBuilder sb = new StringBuilder();
+        if(i<l){
             sb.append(word.charAt(i));
             i++;
         }
-        if(f==1){
-            return sb.toString();
+        
+        while(!stack.isEmpty()){
+            sb.append(stack.pop());
         }
-        return word;
+        
+        while(i < l){
+            sb.append(word.charAt(i));
+            i++;
+        }
+        
+        return sb.toString();
     }
 }
