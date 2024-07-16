@@ -1,16 +1,16 @@
 class Solution {
     public int numTrees(int n) {
-       int[] catalan = new int[n + 1];
-       catalan[0] = 1;
-       catalan[1] = 1;
+       if (n <= 1) {
+            return 1;
+        }
+
+        int result = 0;
+        // Recursive calculation
+        for (int i = 0; i < n; i++) {
+            result += numTrees(i) * numTrees(n - 1 - i);
+        }
+
+        return result;
     
-       for(int i=2; i<=n; i++){
-           catalan[i] = 0;
-           for(int j=0; j<i; j++){
-               catalan[i] +=  catalan[j] * catalan[i - 1 - j];
-           }
-       }
-    
-        return catalan[n];
     }
 }
