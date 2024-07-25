@@ -1,18 +1,56 @@
 class Solution {
-    public int[] sortArray(int[] nums) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-
-        for (int i = 0; i < nums.length; i++) {
-                  minHeap.add(nums[i]);
-         }
+    
+    private void merge(int[] arr, int left, int mid, int right, int[] tempArr) {
+        int start1 = left;
+        int start2 = mid + 1;
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
         
-        int i = 0;
-        int[] result = new int[nums.length];
-        
-        while (!minHeap.isEmpty()) {
-           nums[i++] = minHeap.poll();
+        for (int i = 0; i < n1; i++) {
+            tempArr[start1 + i] = arr[start1 + i];
+        }
+        for (int i = 0; i < n2; i++) {
+            tempArr[start2 + i] = arr[start2 + i];
         }
         
+        int i = 0, j = 0, k = left;
+        while (i < n1 && j < n2) {
+            if (tempArr[start1 + i] <= tempArr[start2 + j]) {
+                arr[k] = tempArr[start1 + i];
+                i += 1;
+            } else {
+                arr[k] = tempArr[start2 + j];
+                j += 1;
+            }
+            k += 1;
+        }
+        
+        while (i < n1) {
+            arr[k] = tempArr[start1 + i];
+            i += 1;
+            k += 1;
+        }
+        while (j < n2) {
+            arr[k] = tempArr[start2 + j];
+            j += 1;
+            k += 1;
+        }
+    }
+        
+    
+    private void mergeSort(int[] arr, int left, int right) {
+        if (left >= right) {
+            return;
+        }
+        int mid = (left + right) / 2;
+        mergeSort(arr, left, mid);
+        mergeSort(arr, mid + 1, right);
+        merge(arr, left, mid, right, new int[arr.length]);
+    }
+    
+    
+    public int[] sortArray(int[] nums) {
+        mergeSort(nums, 0, nums.length - 1);
         return nums;
     }
 }
