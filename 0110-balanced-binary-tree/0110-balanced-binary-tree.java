@@ -15,17 +15,27 @@
  */
 class Solution {
     public boolean isBalanced(TreeNode root) {
-        if (root == null)  return true;
-		if (Height(root) == -1)  return false;
-		return true;
-	}
-    // Create a function to return the “height” of a current subtree using recursion...
-	public int Height(TreeNode root) {
-		if (root == null)  return 0;
-		int leftHeight = Height(root.left);
-		int rightHight = Height(root.right);
-		if (leftHeight == -1 || rightHight == -1)  return -1;
-        if (Math.abs(leftHeight - rightHight) > 1)  return -1;
-		return Math.max(leftHeight, rightHight) + 1;
+        return rootHeight(root) != -1;
+    }
+    
+    public int rootHeight(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        int lh = rootHeight(root.left);
+        if(lh==-1){
+            return -1;
+        }
+        
+        int rh = rootHeight(root.right);
+        if(rh == -1){
+            return -1;
+        }
+        
+        if(Math.abs(lh-rh) > 1){
+            return -1;
+        }
+        
+        return 1 + Math.max(lh, rh);
     }
 }
