@@ -14,20 +14,42 @@
  * }
  */
 class Solution {
+    int totalSum = 0;
     public int sumOfLeftLeaves(TreeNode root) {
-        return processsubtree(root, false);
-    }
-    
-    private int processsubtree(TreeNode root, boolean is_left){
-        if(root==null){
-            return 0;
-        }
         
-        if(root.left == null && root.right == null && is_left==true){
-            return root.val;
+        Stack<TreeNode> leftstack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
+        stack.add(root);
+        
+        while(!stack.isEmpty() || !leftstack.isEmpty()){
+            
+            while(!stack.isEmpty()){
+                
+                TreeNode node = stack.pop();
+                
+                if(node.left!=null){
+                    leftstack.add(node.left);
+                }
+                if(node.right!=null){
+                    stack.add(node.right);
+                }
+            }
+            
+            while(!leftstack.isEmpty()){
+                
+                TreeNode node = leftstack.pop();
+                
+                if(node.left!=null){
+                    leftstack.add(node.left);
+                }
+                if(node.right!=null){
+                    stack.add(node.right);
+                }
+                if(node.left == null && node.right == null){
+                    totalSum += node.val;
+                }
+            }
         }
-            
-            
-        return processsubtree(root.left,true) + processsubtree(root.right,false);
+        return totalSum;
     }
 }
