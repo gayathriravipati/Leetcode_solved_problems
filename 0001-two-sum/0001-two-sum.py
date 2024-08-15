@@ -1,9 +1,13 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        map = {}
+        index_map = {}
+        res = list()  
         for i in range(len(nums)):
-            c = target - nums[i]
-            if c in map:
-                return [i,map[c]]
-            map[nums[i]] = i
+            diff = target - nums[i]
+            if diff in index_map:
+                res.append(index_map[diff])
+                res.append(i)
+                return res
+            else:
+                index_map[nums[i]] = i
                 
