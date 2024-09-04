@@ -31,17 +31,23 @@ class Solution {
     
     private void explore(int idx, List<Integer>[] adjacencylist, boolean[] visited ){
         visited[idx] = true;
-        Queue<Integer> q = new LinkedList<>();
-        q.add(idx);
+//         Queue<Integer> q = new LinkedList<>();
+//         q.add(idx);
         
-        while(!q.isEmpty()){
-            int cr = q.poll();
-            List<Integer> neighbor = adjacencylist[cr];
-            for(int i=0; i<neighbor.size(); i++){
-                if(!visited[neighbor.get(i)]){
-                    visited[neighbor.get(i)] = true;
-                    q.add(neighbor.get(i));
-                }
+//         while(!q.isEmpty()){
+//             int cr = q.poll();
+//             List<Integer> neighbor = adjacencylist[cr];
+//             for(int i=0; i<neighbor.size(); i++){
+//                 if(!visited[neighbor.get(i)]){
+//                     visited[neighbor.get(i)] = true;
+//                     q.add(neighbor.get(i));
+//                 }
+//             }
+//         }
+        List<Integer> neighbor = adjacencylist[idx];
+        for(int n : neighbor){
+            if(!visited[n]){
+                explore(n, adjacencylist, visited);
             }
         }
     }
