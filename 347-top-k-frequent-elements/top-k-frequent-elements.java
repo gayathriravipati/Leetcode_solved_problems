@@ -7,14 +7,20 @@ class Solution {
             freq.put(nums[i], freq.getOrDefault(nums[i], 0) + 1);
         }
         
-        PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<>(
-        (a, b) -> b.getValue() - a.getValue());
-        maxHeap.addAll(freq.entrySet());
+        PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>(
+            (a, b) -> a.getValue() - b.getValue());
+        
+        for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
+            minHeap.add(entry);
+            if (minHeap.size() > k) {
+                minHeap.poll(); 
+            }
+        }
+        
         int[] res = new int[k];
         
-        for(int i=0; i<k; i++){
-            Map.Entry<Integer, Integer> top = maxHeap.poll();
-            res[i] = top.getKey();
+        for (int i = k - 1; i >= 0; i--) { 
+            res[i] = minHeap.poll().getKey();
         }
 
         return res;
