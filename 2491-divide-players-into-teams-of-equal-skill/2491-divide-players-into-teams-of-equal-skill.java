@@ -1,33 +1,22 @@
 class Solution {
-
     public long dividePlayers(int[] skill) {
-        int n = skill.length;
-        int totalSkill = 0;
-        int[] skillFrequency = new int[1001];
-
-        for (int playerSkill : skill) {
-            totalSkill += playerSkill;
-            skillFrequency[playerSkill]++;
-        }
-
-        if (totalSkill % (n / 2) != 0) {
-            return -1;
-        }
-
-        int targetTeamSkill = totalSkill / (n / 2);
-        long totalChemistry = 0;
-
-        for (int playerSkill : skill) {
-            int partnerSkill = targetTeamSkill - playerSkill;
-
-            if (skillFrequency[partnerSkill] == 0) {
+        int len = skill.length;
+        Arrays.sort(skill);
+        int globalChem = skill[0] + skill[len-1];
+        System.out.println(globalChem);
+        int i=0, j = len -1;
+        long compSum = 0;
+        
+        while(i < j){
+            if(skill[i] + skill[j] == globalChem){
+                compSum += (skill[i] * skill[j]);
+            }
+            else{
                 return -1;
             }
-
-            totalChemistry += (long) playerSkill * (long) partnerSkill;
-            skillFrequency[partnerSkill]--;
+            i++;
+            j--;
         }
-
-        return totalChemistry / 2;
+        return compSum;
     }
 }
