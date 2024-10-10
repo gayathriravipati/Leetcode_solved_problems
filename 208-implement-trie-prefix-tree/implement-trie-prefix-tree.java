@@ -1,37 +1,16 @@
 class TrieNode{
-    private TrieNode[] links;
-    private final int R = 26;
-    private boolean isEnd;
-        
+    Map<Character, TrieNode> children;
+    boolean isEnd;
+    
     public TrieNode(){
-        links = new TrieNode[R];
+        children = new HashMap<>();
+        isEnd = false;
     }
     
-    public boolean containsKey(char ch){
-        return links[ch-'a'] != null;
-    }
-    
-    public TrieNode get(char ch){
-        return links[ch-'a'];
-    }
-    
-    public void setEnd(){
-        isEnd = true;
-    }
-    
-    public boolean isEnd() {
-        return isEnd;
-    }
-    
-    public void put(char ch, TrieNode node) {
-        links[ch - 'a'] = node;
-    }
 }
 
-
 class Trie {
-    private TrieNode root;
-    
+    TrieNode root;
     public Trie() {
         root = new TrieNode();
     }
@@ -40,38 +19,34 @@ class Trie {
         TrieNode node = root;
         for(int i=0; i<word.length(); i++){
             char ch = word.charAt(i);
-            if(!node.containsKey(ch)){
-                node.put(ch,new TrieNode());
+            if(!node.children.containsKey(ch)){
+                node.children.put(ch, new TrieNode());
             }
-            node = node.get(ch);
+            node = node.children.get(ch);
         }
-        node.setEnd();
+        node.isEnd = true;
     }
     
     public boolean search(String word) {
         TrieNode node = root;
         for(int i=0; i<word.length(); i++){
             char ch = word.charAt(i);
-            if(node.containsKey(ch)){
-               node = node.get(ch);   
+            if(!node.children.containsKey(ch)){
+                return false;
             }
-            else{
-                return node == null;  //it return false here as the current node is not null nayways
-            }
+            node = node.children.get(ch);
         }
-        return node.isEnd();
+        return node.isEnd;
     }
     
     public boolean startsWith(String prefix) {
         TrieNode node = root;
-        for(int i=0; i<prefix.length(); i++){
+        for(int i = 0; i<prefix.length(); i++){
             char ch = prefix.charAt(i);
-            if(node.containsKey(ch)){
-               node = node.get(ch);   
+            if(!node.children.containsKey(ch)){
+                return false;
             }
-            else{
-                return node == null; //it return false here as the current node is not null nayways
-            }
+            node = node.children.get(ch);
         }
         return true;
     }
