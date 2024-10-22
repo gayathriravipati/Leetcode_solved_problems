@@ -21,7 +21,7 @@ class Solution {
         Queue<TreeNode> levels = new LinkedList<>();
         levels.add(root);
         
-        PriorityQueue<Long> levelSum = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Long> levelSum = new PriorityQueue<>();
         
         while(!levels.isEmpty()){
             int eachLevel = levels.size();
@@ -38,18 +38,18 @@ class Solution {
                 eachLevel--;
             }
             levelSum.offer(sum);
+            
+            if(levelSum.size() > k){
+                levelSum.poll();
+            }
         }
         
         if(levelSum.size() < k){
             return -1;
         }
         
-        while(k > 1){
-            levelSum.poll();
-            k--;
-        }
-        
         return levelSum.poll();
         
     }
 }
+
