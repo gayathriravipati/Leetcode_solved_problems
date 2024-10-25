@@ -1,30 +1,51 @@
+class TrieNode {
+        boolean isEnd;
+        HashMap<String, TrieNode> children;
+
+        TrieNode() {
+            isEnd = false;
+            children = new HashMap<>();
+        }
+}
+
 class Solution {
-
     public List<String> removeSubfolders(String[] folder) {
-        Set<String> folderSet = new HashSet<>(Arrays.asList(folder));
-        List<String> result = new ArrayList<>();
-
-        for (String f : folder) {
-            boolean isSubFolder = false;
-            String prefix = f;
-
-            while (!prefix.isEmpty()) {
-                int pos = prefix.lastIndexOf('/');
-                if (pos == -1) break;
-
-                prefix = prefix.substring(0, pos);
-
-                if (folderSet.contains(prefix)) {
-                    isSubFolder = true;
-                    break;
+        TrieNode root = new TrieNode();
+        for (String path : folder) {
+            TrieNode currentNode = root;
+            String[] folderNames = path.split("/");
+             for (String folderName : folderNames) {
+                   if (folderName.equals("")) continue;
+                  if (!currentNode.children.containsKey(folderName)) {
+                    currentNode.children.put(folderName, new TrieNode());
                 }
-            }
+                 currentNode = currentNode.children.get(folderName);
+             }
+            currentNode.isEnd = true;
+        }
+        
+        List<String> result = new ArrayList<>();
+    for (String path : folder) {
+        TrieNode currentNode = root;
+        String[] folderNames = path.split("/");
+         boolean isSubfolder = false;
+        for (int i = 0; i < folderNames.length; i++) {
+            if (folderNames[i].equals("")) continue;
+            TrieNode nextNode = currentNode.children.get(folderNames[i]);
+            if (nextNode.isEnd && i != folderNames.length - 1) {
+                    isSubfolder = true;
+                    break; 
+                }
 
-            if (!isSubFolder) {
-                result.add(f);
+                currentNode = nextNode;
             }
+            if (!isSubfolder) result.add(path);
         }
 
         return result;
+        }
     }
-}
+    
+    
+    
+    
