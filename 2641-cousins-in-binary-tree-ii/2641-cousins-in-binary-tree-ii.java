@@ -13,55 +13,44 @@
  *     }
  * }
  */
+
+//Learnt this from the solution to pass it in O(n);
+
 class Solution {
-
     public TreeNode replaceValueInTree(TreeNode root) {
-        if (root == null) return root;
-
+        int previousLevelSum = root.val;
         Queue<TreeNode> nodeQueue = new LinkedList<>();
-        nodeQueue.offer(root);
-        List<Integer> levelSums = new ArrayList<>();
+        nodeQueue.add(root);
+        
+        while(!nodeQueue.isEmpty()){
+            int currentLevelSum = 0;
+            int nodeQueueSize = nodeQueue.size();
+            
+            while(nodeQueueSize > 0){
+                TreeNode node = nodeQueue.poll();
+                node.val = previousLevelSum - node.val;
+                
+                int siblingSum = 0;
+                siblingSum += node.left != null ? node.left.val : 0;
+                siblingSum += node.right != null ? node.right.val : 0;
 
-        while (!nodeQueue.isEmpty()) {
-            int levelSum = 0;
-            int levelSize = nodeQueue.size();
-            for (int i = 0; i < levelSize; ++i) {
-                TreeNode currentNode = nodeQueue.poll();
-                levelSum += currentNode.val;
-                if (currentNode.left != null) nodeQueue.offer(currentNode.left);
-                if (currentNode.right != null) nodeQueue.offer(
-                    currentNode.right
-                );
-            }
-            levelSums.add(levelSum);
-        }
-
-        nodeQueue.offer(root);
-        int levelIndex = 1;
-        root.val = 0; 
-        while (!nodeQueue.isEmpty()) {
-            int levelSize = nodeQueue.size();
-            for (int i = 0; i < levelSize; ++i) {
-                TreeNode currentNode = nodeQueue.poll();
-
-                int siblingSum =
-                    (currentNode.left != null ? currentNode.left.val : 0) +
-                    (currentNode.right != null ? currentNode.right.val : 0);
-
-                if (currentNode.left != null) {
-                    currentNode.left.val = levelSums.get(levelIndex) -
-                    siblingSum;
-                    nodeQueue.offer(currentNode.left);
+                
+                if(node.left != null){
+                    currentLevelSum += node.left.val;
+                    node.left.val = siblingSum;
+                    nodeQueue.add(node.left);
                 }
-                if (currentNode.right != null) {
-                    currentNode.right.val = levelSums.get(levelIndex) -
-                    siblingSum;
-                    nodeQueue.offer(currentNode.right);
+                
+                if(node.right != null){
+                    currentLevelSum += node.right.val;
+                    node.right.val = siblingSum;
+                    nodeQueue.add(node.right);
                 }
+                nodeQueueSize--;
             }
-            ++levelIndex;
+            previousLevelSum = currentLevelSum;
+            
         }
-
         return root;
     }
 }
