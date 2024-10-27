@@ -14,22 +14,40 @@
  * }
  */
 class Solution {
-    int count = 0;
     public int goodNodes(TreeNode root) {
-        countGood(root, root.val);
-        return count;
-    }
-    
-    private void countGood(TreeNode root, Integer target){
-        if(root==null){
-            return;
+        if(root.left == null && root.right==null){
+            return 1;
         }
         
-        if(root.val >= target){
-            target = root.val;
-            count++;
+        Queue<Pair<TreeNode, Integer>> queuePair = new LinkedList<>();
+        queuePair.add(new Pair<>(root, root.val));
+        int goodNodes = 1;
+        
+        while(!queuePair.isEmpty()){
+            var top = queuePair.poll();
+             root = top.getKey();
+            int maximum = top.getValue();
+            
+            if(root.left != null){
+                if(root.left.val >= maximum){
+                    queuePair.add(new Pair<>(root.left, root.left.val));
+                    goodNodes++;
+                }
+                else{
+                    queuePair.add(new Pair<>(root.left, maximum));
+                }
+            }
+            
+            if(root.right != null){
+                if(root.right.val >= maximum){
+                    queuePair.add(new Pair<>(root.right, root.right.val));
+                    goodNodes++;
+                }
+                else{
+                    queuePair.add(new Pair<>(root.right, maximum));
+                }
+            }
         }
-        countGood(root.left, target);
-        countGood(root.right, target);
+        return goodNodes;
     }
 }
