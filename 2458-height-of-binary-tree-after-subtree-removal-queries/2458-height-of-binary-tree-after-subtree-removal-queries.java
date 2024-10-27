@@ -1,78 +1,53 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
 
+    // Array to store the maximum height of the tree after removing each node
+    static final int[] maxHeightAfterRemoval = new int[100001];
+
+    int currentMaxHeight = 0;
+
     public int[] treeQueries(TreeNode root, int[] queries) {
-        Map<Integer, Integer> resultMap = new HashMap<>();
-        Map<TreeNode, Integer> heightCache = new HashMap<>();
+        traverseLeftToRight(root, 0);
+        currentMaxHeight = 0; // Reset for the second traversal
+        traverseRightToLeft(root, 0);
 
-        dfs(root, 0, 0, resultMap, heightCache);
-
-        int[] result = new int[queries.length];
-        for (int i = 0; i < queries.length; i++) {
-            result[i] = resultMap.get(queries[i]);
+        // Process queries and build the result array
+        int queryCount = queries.length;
+        int[] queryResults = new int[queryCount];
+        for (int i = 0; i < queryCount; i++) {
+            queryResults[i] = maxHeightAfterRemoval[queries[i]];
         }
-        return result;
+
+        return queryResults;
     }
 
-    private int height(TreeNode node, Map<TreeNode, Integer> heightCache) {
-        if (node == null) {
-            return -1;
-        }
+    private void traverseLeftToRight(TreeNode node, int currentHeight) {
+        if (node == null) return;
 
-        if (heightCache.containsKey(node)) {
-            return heightCache.get(node);
-        }
+        // Store the maximum height if this node were removed
+        maxHeightAfterRemoval[node.val] = currentMaxHeight;
 
-        int h =
-            1 +
-            Math.max(
-                height(node.left, heightCache),
-                height(node.right, heightCache)
-            );
-        heightCache.put(node, h);
-        return h;
+        // Update the current maximum height
+        currentMaxHeight = Math.max(currentMaxHeight, currentHeight);
+
+        // Traverse left subtree first, then right
+        traverseLeftToRight(node.left, currentHeight + 1);
+        traverseLeftToRight(node.right, currentHeight + 1);
     }
 
-    private void dfs(
-        TreeNode node,
-        int depth,
-        int maxVal,
-        Map<Integer, Integer> resultMap,
-        Map<TreeNode, Integer> heightCache
-    ) {
-        if (node == null) {
-            return;
-        }
+    private void traverseRightToLeft(TreeNode node, int currentHeight) {
+        if (node == null) return;
 
-        resultMap.put(node.val, maxVal);
+        // Update the maximum height if this node were removed
+        maxHeightAfterRemoval[node.val] = Math.max(
+            maxHeightAfterRemoval[node.val],
+            currentMaxHeight
+        );
 
-        dfs(
-            node.left,
-            depth + 1,
-            Math.max(maxVal, depth + 1 + height(node.right, heightCache)),
-            resultMap,
-            heightCache
-        );
-        dfs(
-            node.right,
-            depth + 1,
-            Math.max(maxVal, depth + 1 + height(node.left, heightCache)),
-            resultMap,
-            heightCache
-        );
+        // Update the current maximum height
+        currentMaxHeight = Math.max(currentHeight, currentMaxHeight);
+
+        // Traverse right subtree first, then left
+        traverseRightToLeft(node.right, currentHeight + 1);
+        traverseRightToLeft(node.left, currentHeight + 1);
     }
 }
