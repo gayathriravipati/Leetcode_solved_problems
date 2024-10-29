@@ -13,6 +13,8 @@
  *     }
  * }
  */
+// learnt from the solution and tweaked it slightly
+
 class BSTIterator {
     Queue<Integer> stack = new LinkedList<>();
     
