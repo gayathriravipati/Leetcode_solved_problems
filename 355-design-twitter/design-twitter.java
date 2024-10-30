@@ -1,5 +1,5 @@
 class Twitter {
-    Map<Integer, Set<Integer>> followerList; // Use Set to avoid duplicate follow relationships
+    Map<Integer, Set<Integer>> followerList; 
     Map<Integer, List<int[]>> userTweets; // List<int[]>: {currentTweetNum, tweetId}
     int currentTweetNum;
         
@@ -21,7 +21,7 @@ class Twitter {
         List<Integer> tweetNumbers = new ArrayList<>();
         
         Set<Integer> friends = new HashSet<>(followerList.getOrDefault(userId, new HashSet<>()));
-        friends.add(userId); // Always include user's own tweets
+        friends.add(userId); 
         
         // Iterate through friends and add their tweets to the priority queue
         for (int friendId : friends) {
