@@ -11,9 +11,9 @@ class Solution {
             int val = k;
             
             while(val > 1 && friends.size() > 1){
-                int v = friends.getFirst();
-                friends.removeFirst();
-                friends.addLast(v);
+                // int v = friends.getFirst();
+                
+                friends.addLast(friends.removeFirst());
                 val--;
             }
             
