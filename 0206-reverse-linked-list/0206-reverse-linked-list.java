@@ -19,7 +19,7 @@ class Solution {
         ListNode prev = dummy;
         ListNode current = head;
         
-        while(current != null && current.next != null){
+        while(current.next != null){
             ListNode temp = current.next;
             current.next = prev;
             prev = current;
@@ -28,6 +28,7 @@ class Solution {
         current.next = prev;
         prev = current;
         head.next = null;
+        
         return prev;
            
     }
