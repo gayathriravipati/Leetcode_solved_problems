@@ -1,24 +1,45 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int l = nums.length;
-        int ss = Integer.MAX_VALUE;
-        int left = 0;
-        int ts = 0;
-        int right = 0;
-            
-        while(right < l){
-            ts = ts + nums[right];
-                while(ts >= target){
-                    ss = Math.min(ss,right-left+1);
-                    ts = ts - nums[left];
-                    left++;
+        //sliding window
+        //i,j => 0
+        //j < len => we will keeping right => we find a subsum => taregt
+//             while(sum > target && i <= j){
+//                 //Once t is found, we will move i;
+//             }
+//             len again
+                
+         int minLen = Integer.MAX_VALUE;
+         int i = 0, j = 0;
+         int len = nums.length;
+         int sum = 0;
+        
+        while(j < len){
+            System.out.println("ci" + " " + j);
+            sum += nums[j];
+            System.out.println("sum" + " " + sum);
+            if(sum >= target){
+                minLen = Math.min(minLen, j-i+1);
+                System.out.println("minLen" + " " + minLen);
+                while(i <= j){
+                    sum -= nums[i];
+                    i++;
+                    System.out.println("i nd sum" + " "+ i + " " + sum);
+                    if(sum >= target){
+                        minLen = Math.min(minLen, j-i+1);
+                        System.out.println("minLen1" + " " + minLen);
+                    }
+                    else{
+                        break;
+                    }
                 }
-            right++;
+            }
+            j++;
         }
         
-        if(ss==Integer.MAX_VALUE){
+        if(minLen == Integer.MAX_VALUE){
             return 0;
         }
-        return ss;
+        
+        return minLen;       
     }
 }
