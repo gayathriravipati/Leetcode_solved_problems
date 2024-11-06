@@ -1,3 +1,4 @@
+//Done with the help of solution and GPT
 class Solution {
     public String nearestPalindromic(String n) {
         
@@ -5,10 +6,9 @@ class Solution {
         
         boolean is_even = len % 2 == 0;
         
-        int mid = len / 2;
+        int mid = is_even ? len / 2 - 1 : len / 2 ;
         
-        // Extract the first half
-        Long firstHalf = Long.parseLong(n.substring(0, mid + (is_even ? 0 : 1)));
+        Long firstHalf = Long.parseLong(n.substring(0, mid + 1));
         
         // List to store possible candidates
         List<Long> possibilities = new ArrayList<>();
