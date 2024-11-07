@@ -1,37 +1,74 @@
 class LRUCache {
-    Deque<Integer> dq;
-    HashMap<Integer, Integer> mapper;
     int capacity;
+    Map<Integer, ListNode> dic;
+    ListNode head;
+    ListNode tail;
+    
     public LRUCache(int capacity) {
-        dq = new ArrayDeque<>(capacity);
-        mapper = new HashMap<>();
         this.capacity = capacity;
+        head = new ListNode(-1, -1);
+        tail = new ListNode(-1, -1);
+        head.next = tail;
+        tail.prev = head;
+        dic = new HashMap<>();
+       
     }
     
     public int get(int key) {
-        if(mapper.containsKey(key)){
-            dq.remove(key);
-            dq.addLast(key);
-            return mapper.get(key);
-        }
-        else{
+        if(!dic.containsKey(key)){
             return -1;
         }
+        
+        ListNode node = dic.get(key);
+        removeNode(node);
+        addNode(node);
+        return node.val;
     }
     
     public void put(int key, int value) {
+        if(dic.containsKey(key)){
+            ListNode node = dic.get(key);
+            removeNode(node);
+        }
         
-        if(mapper.containsKey(key)){
-            dq.remove(key);
+        ListNode newNode = new ListNode(key, value);
+        addNode(newNode);
+        dic.put(key, newNode);
+        
+        if(dic.size() > capacity){
+            ListNode toDelete = head.next;
+            removeNode(toDelete);
+            dic.remove(toDelete.key); 
         }
-        else{
-            if((mapper.size() == capacity)){
-                int oldestVal = dq.removeFirst();
-                mapper.remove(oldestVal);
-            }
-        }
-        dq.addLast(key);
-        mapper.put(key, value);
+    }
+    
+    public void removeNode(ListNode node){
+        ListNode nextNode = node.next;
+        ListNode prevNode = node.prev;
+        prevNode.next = nextNode;
+        nextNode.prev = prevNode;
+    }
+    
+    public void addNode(ListNode newNode){
+        ListNode prevEnd = tail.prev;
+        prevEnd.next = newNode;
+        newNode.prev = prevEnd;
+        newNode.next = tail;
+        tail.prev = newNode;
+        prevEnd = newNode;
+    }
+    
+}
+
+class ListNode{
+    int key;
+    int val;
+    ListNode next;
+    ListNode prev;
+    
+    public ListNode(int key, int val){
+        this.key = key;
+        this.val = val;
     }
 }
 
