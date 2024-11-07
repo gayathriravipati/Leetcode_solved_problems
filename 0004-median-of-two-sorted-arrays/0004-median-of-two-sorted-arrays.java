@@ -1,34 +1,43 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int len1 = nums1.length;
-        int len2 = nums2.length;
-        int len = len1 + len2;
+        int m = nums1.length;
+        int n = nums2.length;
+        int len = m + n;
         
-        int[] sortedArray = new int[len];
-        int i = 0, j = 0;
-        int idx = 0;
+        if(m > n){
+            return findMedianSortedArrays(nums2, nums1);
+        }
         
-        while (i < len1 && j < len2) {
-            if (nums1[i] < nums2[j]) {
-                sortedArray[idx++] = nums1[i++];
-            } else {
-                sortedArray[idx++] = nums2[j++];
+        int left = 0;
+        int right = m;
+        
+        while(left <= right){
+            int pA = (left + right) / 2;
+            int pB = (len + 1) / 2 - pA;
+            
+            int maxA = (pA == 0) ? Integer.MIN_VALUE : nums1[pA-1];
+            int maxB = (pB == 0) ? Integer.MIN_VALUE : nums2[pB-1];
+            
+            int minA = (pA == m) ? Integer.MAX_VALUE : nums1[pA];
+            int minB = (pB == n) ? Integer.MAX_VALUE : nums2[pB];
+            
+            if(maxA <= minB && maxB <= minA){
+                if(len % 2 == 0){
+                    int val = Math.max(maxA, maxB) + Math.min(minA, minB);
+                    return val / 2.0;
+                }
+                else{
+                    return (double) Math.max(maxA, maxB);
+                }
+                
+            }
+            else if(maxA > minB){
+                right = pA -1;
+            }
+            else{
+                left = pA + 1;
             }
         }
-        
-        while (i < len1) {
-            sortedArray[idx++] = nums1[i++];
-        }
-        
-        while (j < len2) {
-            sortedArray[idx++] = nums2[j++];
-        }
-        
-        int mid = len / 2;
-        if (len % 2 == 0) {
-            return (sortedArray[mid - 1] + sortedArray[mid]) / 2.0;  
-        } else {
-            return (double) sortedArray[mid];  
-        }
+        return 0.0;
     }
 }
