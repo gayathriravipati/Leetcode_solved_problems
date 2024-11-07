@@ -1,65 +1,63 @@
-import java.util.*;
-
 class Solution {
+    List<Integer> order = new ArrayList<>();
+    int[][] prerequisites;
+    List<Integer>[] adjacencyList;
+    boolean[] visited;
+    Set<Integer> currentNodes = new HashSet<>();
+    
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        List<Integer>[] adjacencyList = new ArrayList[numCourses];
-
-        for (int i = 0; i < numCourses; i++) { 
+        this.prerequisites = prerequisites;
+        visited = new boolean[numCourses];
+        
+        
+        adjacencyList = new ArrayList[numCourses];
+        
+        //Check neighbors and build
+        
+        for(int i = 0; i<numCourses; i++){
             adjacencyList[i] = new ArrayList<>();
         }
-
-        for (int i = 0; i < prerequisites.length; i++) {
-            adjacencyList[prerequisites[i][1]].add(prerequisites[i][0]);
+        
+        
+        for(int[] course : prerequisites){
+            adjacencyList[course[0]].add(course[1]);
         }
-
-        List<Integer> order = new ArrayList<>();
-        Set<Integer> visited = new HashSet<>();
-        Set<Integer> inStack = new HashSet<>();
-
-        for (int i = 0; i < numCourses; i++) {
-            if (!visited.contains(i)) {
-                if (!dfs(i, visited, inStack, adjacencyList, order)) {
-                    return new int[0];  
+        
+        for(int i = 0; i<numCourses; i++){
+            if(!visited[i]){
+                if(!explore(i)){
+                    return new int[0];   
                 }
             }
         }
-
-        Integer[] integerArray = order.toArray(new Integer[0]);
-
-        int[] result = new int[integerArray.length];
+        int[] orderArray = order.stream().mapToInt(Integer::intValue).toArray();
+        int[] result = new int[orderArray.length];
         int j = 0;
-        for (int i = integerArray.length-1; i >=0; i--) {
-            result[j++] = integerArray[i];
+        for (int i = orderArray.length-1; i >=0; i--) {
+            result[j++] = orderArray[i];
         }
-
-        return result;
+        return orderArray;
     }
-
-    private boolean dfs(int node, Set<Integer> visited, Set<Integer> inStack, List<Integer>[] adjacencyList, List<Integer> order) {
-        visited.add(node);  
-        inStack.add(node);  
-        List<Integer> neighbors = adjacencyList[node];
-        for (int neighbor : neighbors) {
-            if (inStack.contains(neighbor)) {  
-                return false;
+    
+    public boolean explore(int i){
+        visited[i] = true;
+        currentNodes.add(i);
+        
+        List<Integer> neighbors = adjacencyList[i];
+        
+        for(int neighbor : neighbors){
+            if(currentNodes.contains(neighbor)){
+                    return false;
             }
-            if (!visited.contains(neighbor)) {
-                if (!dfs(neighbor, visited, inStack, adjacencyList, order)) {
-                    return false; 
-                }
+            
+            if(!visited[neighbor]){
+                 if(!explore(neighbor)){
+                     return false;
+                 }
             }
         }
-
-        inStack.remove(node);  
-        order.add(node); 
-
+        currentNodes.remove(i);
+        order.add(i);
         return true;
-    }
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        int numCourses = 2;
-        int[][] prerequisites = {{1, 0}, {0, 1}};
-        System.out.println(Arrays.toString(sol.findOrder(numCourses, prerequisites)));  
     }
 }
