@@ -21,7 +21,11 @@ class Solution {
                 mergedLists.add(mergeTwoLists(l1, l2));
             }
             
-            lists = mergedLists.toArray(new ListNode[0]);
+            lists = new ListNode[mergedLists.size()];
+            for (int i = 0; i < mergedLists.size(); i++) {
+                lists[i] = mergedLists.get(i);
+            }
+            
         }
 
         return lists[0];
