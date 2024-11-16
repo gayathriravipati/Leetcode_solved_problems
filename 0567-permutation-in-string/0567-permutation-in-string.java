@@ -1,18 +1,38 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-        s1 = sort(s1);
-        int s2len = s2.length();
-        for(int i=0; i<=s2len - s1.length(); i++){
-            if(s1.equals(sort(s2.substring(i, i + s1.length())))){
-                return true; 
+        
+        if(s1.length() > s2.length()){
+            return false;
+        }
+        System.out.println(s1.length() + " " +  s2.length());
+        
+        Map<Character, Integer> mp1 = new HashMap<>();
+        Map<Character, Integer> mp2 = new HashMap<>();
+        
+        for(int i=0; i<s1.length(); i++){
+            mp1.put(s1.charAt(i), mp1.getOrDefault(s1.charAt(i), 0) + 1);
+            mp2.put(s2.charAt(i), mp2.getOrDefault(s2.charAt(i), 0) + 1);   
+        }
+        
+        if(mp1.equals(mp2)){
+            return true;
+        }
+        
+        int j = 0;
+        for(int i=s1.length(); i<s2.length(); i++){
+            // System.out.println(j + " " + s2.charAt(j) + " " + i + " " + s2.charAt(i));
+            mp2.put(s2.charAt(j), mp2.get(s2.charAt(j)) - 1);
+            
+            if(mp2.get(s2.charAt(j)) == 0){
+                mp2.remove(s2.charAt(j));
+            }
+            
+            j++;
+            mp2.put(s2.charAt(i), mp2.getOrDefault(s2.charAt(i), 0) + 1);
+            if(mp1.equals(mp2)){
+                return true;
             }
         }
         return false;
-    }
-    
-    public String sort(String s){
-        char[] t = s.toCharArray();
-        Arrays.sort(t);
-        return new String(t);
     }
 }
