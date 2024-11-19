@@ -1,66 +1,70 @@
 class Solution {
-    List<List<String>> res = new ArrayList<>();
-    TrieNode root;
-
-    public void buildTrie(String word, TrieNode node) {
-        for (char ch : word.toCharArray()) {
+     List<List<String>>  res = new ArrayList<>();
+     TrieNode root = new TrieNode();
+    
+    public void buildTrie(String word){
+        TrieNode node = root;
+        for(char ch : word.toCharArray()){
             node.children.putIfAbsent(ch, new TrieNode());
             node = node.children.get(ch);
         }
         node.isEnd = true;
     }
-
-    public List<List<String>> suggestedProducts(String[] products, String searchWord) {
-        root = new TrieNode();
-        for (String word : products) {
-            buildTrie(word, root);
+    
+     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
+         
+        for(String p : products){
+            buildTrie(p);
         }
-
-        // Generate suggestions for each prefix of the search word
-        StringBuilder sb = new StringBuilder();
-        TrieNode node = root;
-        for (char ch : searchWord.toCharArray()) {
-            sb.append(ch);
-            if (node != null && node.children.containsKey(ch)) {
+         
+        //search the matching words for every character
+         TrieNode node = root;
+         StringBuilder sb = new StringBuilder();
+         
+        for(char ch : searchWord.toCharArray()){
+            if(node != null && node.children.containsKey(ch)){
                 node = node.children.get(ch);
-                res.add(getWords(node, sb.toString()));
-            } else {
-                res.add(new ArrayList<>()); // No suggestions if prefix doesn't exist
-                node = null; // Stop further traversal
+                sb.append(ch);
+                res.add(getWords(node, sb));
+            }
+            else{
+                res.add(new ArrayList<>());
+                node = null;
             }
         }
-       
          return res;
     }
-
-    // Method to get all words starting from the current TrieNode
-    public List<String> getWords(TrieNode node, String prefix) {
+    
+    public List<String> getWords(TrieNode node, StringBuilder sb){
         List<String> subGroup = new ArrayList<>();
-        dfs(node, new StringBuilder(prefix), subGroup);
+        explore(node, sb, subGroup);
         return subGroup;
     }
-
-    // Depth-first search to collect words from the Trie
-    public void dfs(TrieNode node, StringBuilder sb, List<String> subGroup) {
-        if (subGroup.size() == 3) return; // Limit to top 3 suggestions
-        if (node.isEnd) {
+    
+    public void explore(TrieNode node, StringBuilder sb, List<String> subGroup){
+        if(subGroup.size() == 3){
+            return;
+        }
+        
+        if(node.isEnd == true){
             subGroup.add(sb.toString());
         }
-        for (char ch : node.children.keySet()) {
+        
+        for(char ch : node.children.keySet()){
             sb.append(ch);
-            dfs(node.children.get(ch), sb, subGroup);
-            sb.deleteCharAt(sb.length() - 1); // Backtrack
+            explore(node.children.get(ch), sb, subGroup);
+            sb.deleteCharAt(sb.length() - 1);
         }
     }
+    
 }
 
-// Definition for TrieNode
-class TrieNode {
+class TrieNode{
     Map<Character, TrieNode> children;
     boolean isEnd;
-
-    public TrieNode() {
-        children = new TreeMap<>(); 
+    
+    public TrieNode(){
+        children = new TreeMap<>();
         isEnd = false;
     }
 }
