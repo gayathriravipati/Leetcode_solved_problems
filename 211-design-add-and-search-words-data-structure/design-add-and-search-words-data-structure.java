@@ -1,7 +1,7 @@
 class TrieNode{
     Map<Character, TrieNode> children;
     boolean isEnd;
-        
+    
     public TrieNode(){
         children = new HashMap<>();
         isEnd = false;
@@ -9,49 +9,51 @@ class TrieNode{
 }
 
 class WordDictionary {
-    TrieNode trie;
+    TrieNode root;
     public WordDictionary() {
-        trie = new TrieNode();
+        root = new TrieNode();
     }
     
     public void addWord(String word) {
-        TrieNode node = trie;
-        for(int i=0; i<word.length(); i++){
-            char ch = word.charAt(i);
+        TrieNode node = root;
+        for(char ch : word.toCharArray()){
             if(!node.children.containsKey(ch)){
                 node.children.put(ch, new TrieNode());
             }
-            node = node.children.get(ch);
+            node =  node.children.get(ch);
         }
         node.isEnd = true;
     }
     
     public boolean search(String word) {
-        return searchInNode(word, trie);   
+         TrieNode node = root;
+         return searchInNode(word, 0, node);
     }
     
-    public boolean searchInNode(String word, TrieNode node){
-        for(int i=0; i<word.length(); i++){
-            char ch = word.charAt(i);
-            if(ch == '.'){
-                for (char x : node.children.keySet()){
-                    TrieNode child = node.children.get(x);
-                    if (searchInNode(word.substring(i + 1), child)) {
-                        return true;
-                    }
-                }
-                return false;
-            }else{
-                if(!node.children.containsKey(ch)){
-                    return false;
-                }
-                else{
-                   node = node.children.get(ch); 
+    public boolean searchInNode(String word, int idx, TrieNode node){
+        if(idx == word.length()){
+            return node.isEnd;
+        }
+        
+        if(word.charAt(idx) == '.'){
+            for(char ch : node.children.keySet()){
+                if(searchInNode(word, idx + 1, node.children.get(ch))){
+                    return true;
                 }
             }
+            return false;
         }
-        return node.isEnd;
+        else{
+            if(!node.children.containsKey(word.charAt(idx))){
+                return false;
+            }
+            else{
+                node = node.children.get(word.charAt(idx));
+            }
+        }
+        return searchInNode(word, idx + 1, node);
     }
+    
 }
 
 /**
