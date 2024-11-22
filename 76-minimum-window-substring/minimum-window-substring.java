@@ -24,14 +24,11 @@ class Solution {
             char ch = s.charAt(right);
             sMap.put(ch, sMap.getOrDefault(ch, 0) + 1);
 
-            // Check if this character satisfies the frequency requirement
             if (tMap.containsKey(ch) && sMap.get(ch).intValue() == tMap.get(ch).intValue()) {
                 formed++;
             }
 
-            // Try to shrink the window from the left
             while (left <= right && formed == required) {
-                // Update result if this window is smaller
                 if (result[0] == -1 || right - left + 1 < result[0]) {
                     result[0] = right - left + 1;
                     result[1] = left;
