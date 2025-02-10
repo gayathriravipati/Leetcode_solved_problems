@@ -7,8 +7,8 @@ class Solution {
             if(ch >= 'a' && ch <= 'z'){
                 sb.append(ch);
             }
-            else{
-                sb.delete(sb.length() - 1, sb.length());
+            else if (sb.length() > 0) { 
+                sb.deleteCharAt(sb.length() - 1);
             }
         }
 
