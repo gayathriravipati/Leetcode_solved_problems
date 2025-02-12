@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int maximumSum(int[] nums) {
         Map<Integer, PriorityQueue<Integer>> freqMap = new HashMap<>();
@@ -31,8 +29,4 @@ class Solution {
         return sum;
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.maximumSum(new int[]{4, 6, 10, 6})); 
-    }
 }
