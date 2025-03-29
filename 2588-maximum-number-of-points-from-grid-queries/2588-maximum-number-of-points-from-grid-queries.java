@@ -11,7 +11,8 @@ class Solution {
             sortedQueries[i][0] = queries[i];
             sortedQueries[i][1] = i;
         }
-        Arrays.sort(sortedQueries, (a,b) -> (a[0] - b[0]));
+        Arrays.sort(sortedQueries, (a, b) -> Integer.compare(a[0], b[0]));
+
 
         int points = 0;
 
