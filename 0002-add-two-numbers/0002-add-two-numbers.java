@@ -1,29 +1,39 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode head1 = l1;
-        ListNode head2 = l2;
-        ListNode result = new ListNode(); 
-        ListNode head = result;
-        
         int carry = 0;
-        
-        while (head1 != null || head2 != null) {
-            int val1 = (head1 != null) ? head1.val : 0;  
-            int val2 = (head2 != null) ? head2.val : 0; 
+        ListNode res = new ListNode();
+        ListNode tail = res;
+        ListNode one = l1;
+        ListNode two = l2;
+
+        while(one != null || two != null || carry !=0){
+            int curr = carry + (one != null ? one.val : 0)  + (two != null ? two.val : 0);
+
+            carry = curr / 10;
+            curr = curr % 10;
             
-            int sum = val1 + val2 + carry;
-            carry = sum / 10;
-            head.next = new ListNode(sum % 10); 
-            head = head.next; 
-            
-            if (head1 != null) head1 = head1.next;  
-            if (head2 != null) head2 = head2.next;  
+            tail.next = new ListNode(curr);
+            tail = tail.next;
+
+            if(one != null){
+                one = one.next;
+            }
+
+            if(two != null){
+                two = two.next;
+            }
         }
-        
-        if (carry != 0) {
-            head.next = new ListNode(carry);
-        }
-        
-        return result.next;
+
+        return res.next;
     }
 }
