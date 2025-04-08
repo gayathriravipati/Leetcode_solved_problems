@@ -1,7 +1,7 @@
 class Solution {
-    //Solution learnt from Neetcode
+    //Solution learnt from editorial
     public boolean canPartition(int[] nums) {
-        int len = nums.length;
+        int n = nums.length;
         int totalSum = 0;
         for(int num : nums){
             totalSum += num;
@@ -13,20 +13,26 @@ class Solution {
 
         int target = totalSum / 2;
 
-        HashSet<Integer> firstSet = new HashSet();
-        firstSet.add(0);
+        Boolean[][] dp = new Boolean[n+1][target+1];
+        dp[0][0] = true;
 
-        for(int i = len-1; i>=0; i--){
-            HashSet<Integer> secondSet = new HashSet();
-            for(int n : firstSet){
-                secondSet.add(n);
-                secondSet.add(n + nums[i]);
-                if(n + nums[i] == target){
-                    return true;
-                }
-            }
-            firstSet = secondSet;
+        return dfs(nums, n, target, dp);
+    }
+
+    private Boolean dfs(int[] nums, int n, int target, Boolean[][] dp){
+        if(target == 0){
+            return true;
         }
-        return false;
+
+        if(n <= 0 || target < 0){
+            return false;
+        }
+
+        if (dp[n][target] != null){
+            return dp[n][target];
+        }
+            
+        dp[n][target] = dfs(nums, n-1, target - nums[n-1], dp) || dfs(nums, n-1, target, dp);
+        return dp[n][target];
     }
 }
