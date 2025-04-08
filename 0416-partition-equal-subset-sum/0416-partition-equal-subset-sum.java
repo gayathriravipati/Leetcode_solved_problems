@@ -1,4 +1,5 @@
 class Solution {
+    //Solution learnt from Neetcode
     public boolean canPartition(int[] nums) {
         int len = nums.length;
         int totalSum = 0;
