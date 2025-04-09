@@ -12,18 +12,18 @@ class Solution {
 
         while(j < stringLength){
             if(uniqueChars.contains(s.charAt(j))){
-                System.out.println("hii");
+                // System.out.println("hii");
                 maxLen = Math.max(j-i, maxLen);
-                System.out.println(maxLen + "len");
+                // System.out.println(maxLen + "len");
                 while(uniqueChars.contains(s.charAt(j)) && i < stringLength){
                     uniqueChars.remove(s.charAt(i));
                     i++;
                 }
-                System.out.println(i + "i");
+                // System.out.println(i + "i");
             }
 
             uniqueChars.add(s.charAt(j));
-            System.out.println(maxLen + " " + s.charAt(j));
+            // System.out.println(maxLen + " " + s.charAt(j));
             j++;
         }
         maxLen = Math.max(j-i, maxLen);
