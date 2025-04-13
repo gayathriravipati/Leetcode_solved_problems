@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0368-largest-divisible-subset) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0050-powx-n) |
 ## Tree
 |  |
 | ------- |
