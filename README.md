@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3321-type-of-triangle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3430-count-days-without-meetings) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3639-zero-array-transformation-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3639-zero-array-transformation-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Sorting
@@ -183,4 +184,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
+## Prefix Sum
+|  |
+| ------- |
+| [3639-zero-array-transformation-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3639-zero-array-transformation-i) |
 <!---LeetCode Topics End-->
