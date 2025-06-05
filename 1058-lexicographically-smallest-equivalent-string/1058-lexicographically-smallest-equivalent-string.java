@@ -1,4 +1,5 @@
 class Solution {
+    //https://leetcode.com/problems/lexicographically-smallest-equivalent-string/solutions/6812060/cpp-java-python-dfs-100-beats-easy-to-un-ws91/
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
         Map<Character, List<Character>> mappings = new HashMap<>();
 
