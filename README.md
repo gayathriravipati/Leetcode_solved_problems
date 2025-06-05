@@ -204,8 +204,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
+## Design
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
