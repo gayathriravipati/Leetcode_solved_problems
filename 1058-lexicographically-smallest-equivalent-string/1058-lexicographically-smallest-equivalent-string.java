@@ -40,3 +40,5 @@ class Solution {
         return minChar;
     }
 }
+
+//I have a doubt on how are we returning the lexicographical order here
