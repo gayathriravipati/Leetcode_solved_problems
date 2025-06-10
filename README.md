@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3643-zero-array-transformation-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3876-transform-array-to-all-equal-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3876-transform-array-to-all-equal-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0334-increasing-triplet-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0334-increasing-triplet-subsequence) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3876-transform-array-to-all-equal-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3876-transform-array-to-all-equal-elements) |
 ## Database
 |  |
 | ------- |
