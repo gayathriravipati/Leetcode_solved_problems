@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0011-container-with-most-water) |
 | [0073-set-matrix-zeroes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0073-set-matrix-zeroes) |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0198-house-robber) |
@@ -100,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0011-container-with-most-water) |
 | [0141-linked-list-cycle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0141-linked-list-cycle) |
 | [0283-move-zeroes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
@@ -190,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0334-increasing-triplet-subsequence) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
