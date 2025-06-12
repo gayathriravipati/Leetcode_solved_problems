@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
 | [0951-partition-array-into-disjoint-intervals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0951-partition-array-into-disjoint-intervals) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1656-count-good-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1656-count-good-triplets) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
 ## Linked List
 |  |
@@ -229,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0643-maximum-average-subarray-i) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Memoization
 |  |
 | ------- |
