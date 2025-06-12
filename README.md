@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3643-zero-array-transformation-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 | [3876-transform-array-to-all-equal-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3876-transform-array-to-all-equal-elements) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
