@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -189,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0300-longest-increasing-subsequence) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3643-zero-array-transformation-ii) |
 ## Binary Indexed Tree
 |  |
@@ -204,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0334-increasing-triplet-subsequence) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3876-transform-array-to-all-equal-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3876-transform-array-to-all-equal-elements) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
