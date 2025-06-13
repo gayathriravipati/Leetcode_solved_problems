@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0643-maximum-average-subarray-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0643-maximum-average-subarray-i) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0724-find-pivot-index](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
 | [0951-partition-array-into-disjoint-intervals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0951-partition-array-into-disjoint-intervals) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
@@ -252,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0724-find-pivot-index](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1833-find-the-highest-altitude](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1833-find-the-highest-altitude) |
 | [3639-zero-array-transformation-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3639-zero-array-transformation-i) |
