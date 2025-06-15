@@ -1,35 +1,50 @@
 class Solution {
     public int compress(char[] chars) {
-        if (chars.length == 1) {
+        int idx = 0;
+        int len = chars.length;
+
+        if(len == 1){
             return 1;
         }
 
-        char ch = chars[0];
+        int j=1;
         int cnt = 1;
-        int idx = 0;
+        char ch = chars[0];
 
-        for (int i = 1; i < chars.length; i++) {
-            if (chars[i] == ch) {
+        //let j iterate => when ever there is difference lets modify the characters.
+        while(j < len){
+            if(chars[j] == ch){
                 cnt++;
-            } else {
-                chars[idx++] = ch;
-                if (cnt > 1) {
-                    for (char c : Integer.toString(cnt).toCharArray()) {
-                        chars[idx++] = c;
+            }
+            else{
+                if(cnt == 1){
+                    chars[idx] = ch;
+                    idx++;
+                }
+                else{
+                    chars[idx++] = ch;
+                    String countStr = String.valueOf(cnt);
+                    for (int i = 0; i < countStr.length(); i++) {
+                        chars[idx++] = countStr.charAt(i);
                     }
                 }
-                ch = chars[i];
                 cnt = 1;
+                ch = chars[j];
             }
-        }
-        
-        chars[idx++] = ch;
-        if (cnt > 1) {
-            for (char c : Integer.toString(cnt).toCharArray()) {
-                chars[idx++] = c;
-            }
+            j++;
         }
 
+        if(cnt == 1){
+            chars[idx] = ch;
+            idx++;
+        }
+        else{
+            chars[idx++] = ch;
+            String countStr = String.valueOf(cnt);
+            for (int i = 0; i < countStr.length(); i++) {
+                chars[idx++] = countStr.charAt(i);
+            }
+        }
         return idx;
     }
 }
