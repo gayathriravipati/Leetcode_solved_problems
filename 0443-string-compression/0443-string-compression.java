@@ -11,18 +11,14 @@ class Solution {
         int cnt = 1;
         char ch = chars[0];
 
-        //let j iterate => when ever there is difference lets modify the characters.
+        //let j iterate => whenever there is difference let's modify the characters.
         while(j < len){
             if(chars[j] == ch){
                 cnt++;
             }
             else{
-                if(cnt == 1){
-                    chars[idx] = ch;
-                    idx++;
-                }
-                else{
-                    chars[idx++] = ch;
+                chars[idx++] = ch;
+                if(cnt > 1){
                     String countStr = String.valueOf(cnt);
                     for (int i = 0; i < countStr.length(); i++) {
                         chars[idx++] = countStr.charAt(i);
@@ -34,12 +30,8 @@ class Solution {
             j++;
         }
 
-        if(cnt == 1){
-            chars[idx] = ch;
-            idx++;
-        }
-        else{
-            chars[idx++] = ch;
+        chars[idx++] = ch;
+        if(cnt > 1){
             String countStr = String.valueOf(cnt);
             for (int i = 0; i < countStr.length(); i++) {
                 chars[idx++] = countStr.charAt(i);
