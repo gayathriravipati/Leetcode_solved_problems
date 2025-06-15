@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0951-partition-array-into-disjoint-intervals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0951-partition-array-into-disjoint-intervals) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1306-minimum-absolute-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1306-minimum-absolute-difference) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1656-count-good-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1656-count-good-triplets) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
