@@ -1,23 +1,15 @@
 class Solution {
+    //optimised way of writing code
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-        List<Boolean> status = new ArrayList<>();
+        int max = Arrays.stream(candies).max().getAsInt();
 
-        int maxNum = Integer.MIN_VALUE;
+        // int max = candies.stream().max().getAsInt();
+        List<Boolean> result = new ArrayList<>(candies.length);
 
-        for(int c : candies){
-            if(c > maxNum){
-                maxNum = c;
-            }
+        for (int c : candies) {
+            result.add(c + extraCandies >= max);
         }
 
-        for(int c : candies){
-            if(c + extraCandies >= maxNum){
-                status.add(true);
-            }
-            else{
-                status.add(false);
-            }
-        }
-        return status;
+        return result;
     }
 }
