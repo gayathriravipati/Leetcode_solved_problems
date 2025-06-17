@@ -102,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0368-largest-divisible-subset) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -240,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0443-string-compression) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1058-lexicographically-smallest-equivalent-string) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1894-merge-strings-alternately](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1894-merge-strings-alternately) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
