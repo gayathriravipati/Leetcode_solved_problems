@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1833-find-the-highest-altitude) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
