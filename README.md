@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0368-largest-divisible-subset) |
 | [1306-minimum-absolute-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1306-minimum-absolute-difference) |
+| [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0141-linked-list-cycle) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Math
@@ -246,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1894-merge-strings-alternately) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3194-find-words-containing-character](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3194-find-words-containing-character) |
