@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -234,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0334-increasing-triplet-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0605-can-place-flowers) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
