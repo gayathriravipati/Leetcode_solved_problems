@@ -20,3 +20,21 @@ class Solution {
         return cnt; 
     }
 }
+
+//P.S : To the future me, learn to write neat code. Below code is from the editorial which avoids nested loops and less constants
+
+// class Solution {
+
+//     public int partitionArray(int[] nums, int k) {
+//         Arrays.sort(nums);
+//         int ans = 1;
+//         int rec = nums[0];
+//         for (int i = 0; i < nums.length; i++) {
+//             if (nums[i] - rec > k) {
+//                 ans++;
+//                 rec = nums[i];
+//             }
+//         }
+//         return ans;
+//     }
+// }
