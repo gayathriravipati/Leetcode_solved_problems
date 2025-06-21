@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2888-minimum-index-of-a-valid-split](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3321-type-of-triangle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3321-type-of-triangle) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -108,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3885-count-special-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3885-count-special-triplets) |
@@ -247,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3876-transform-array-to-all-equal-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3876-transform-array-to-all-equal-elements) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
@@ -270,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1894-merge-strings-alternately) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3194-find-words-containing-character](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3194-find-words-containing-character) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
