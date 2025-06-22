@@ -200,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0394-decode-string) |
 | [2050-count-good-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2050-count-good-numbers) |
 ## Tree
 |  |
@@ -274,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0443-string-compression) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -320,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
