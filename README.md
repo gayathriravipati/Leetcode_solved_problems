@@ -339,10 +339,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
+| [0969-number-of-recent-calls](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0969-number-of-recent-calls) |
 ## Data Stream
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
+| [0969-number-of-recent-calls](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0969-number-of-recent-calls) |
 ## Brainteaser
 |  |
 | ------- |
@@ -354,4 +356,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2470-removing-stars-from-a-string) |
 | [3893-generate-tag-for-video-caption](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3893-generate-tag-for-video-caption) |
+## Queue
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0969-number-of-recent-calls) |
 <!---LeetCode Topics End-->
