@@ -11,9 +11,9 @@
 class Solution {
     public int pairSum(ListNode head) {
 
-        if(head.next.next == null){
-            return head.val + head.next.val;
-        }
+        // if(head.next.next == null){
+        //     return head.val + head.next.val;
+        // }
         
         ListNode fastPtr = head;
         ListNode slowPtr = head;
