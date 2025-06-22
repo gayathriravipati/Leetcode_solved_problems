@@ -1,3 +1,4 @@
+//corrected my logic using chat-GPT
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
         Deque<Integer> dq = new ArrayDeque<>();
@@ -15,12 +16,12 @@ class Solution {
 
                 // Collision only occurs if top is moving right (positive) and n is moving left (negative)
                 if (top > 0 && n < 0) {
-                    int absTop = Math.abs(top);
-                    int absN = Math.abs(n);
+                     top = Math.abs(top);
+                     n = Math.abs(n);
 
-                    if (absN > absTop) {
+                    if (n > top) {
                         dq.removeLast(); 
-                    } else if (absN == absTop) {
+                    } else if (n == top) {
                         dq.removeLast(); 
                         idx++;
                     } else {
