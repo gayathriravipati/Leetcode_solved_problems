@@ -1,45 +1,45 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> stack = new Stack<>();
-        
-        for (int i = 0; i < asteroids.length; i++) {
-            if (stack.isEmpty()) {
-                stack.push(asteroids[i]);
-                continue;
-            }
+        Deque<Integer> dq = new ArrayDeque<>();
+        int idx = 0;
+        int len = asteroids.length;
 
-            while (true) {
-                int topVal = stack.peek();
-                // same direction or topVal is moving left and current asteroid is moving right
-                if ((topVal > 0 && asteroids[i] > 0) || (topVal < 0 && asteroids[i] < 0) || (topVal < 0 && asteroids[i] > 0)) {
-                    stack.push(asteroids[i]);
-                    break;
-                }
-                // opposite direction and same size
-                else if (Math.abs(topVal) == Math.abs(asteroids[i])) {
-                    stack.pop();
-                    break;
-                }
-                // opposite direction and topVal is larger
-                else if (Math.abs(topVal) > Math.abs(asteroids[i])) {
-                    break;
-                }
-                // opposite direction and topVal is smaller
-                else {
-                    stack.pop();
-                    if (stack.isEmpty()) {
-                        stack.push(asteroids[i]);
-                        break;
+        while (idx < len) {
+            int n = asteroids[idx];
+
+            if (dq.isEmpty()) {
+                dq.addLast(n);
+                idx++;
+            } else {
+                int top = dq.peekLast();
+
+                // Collision only occurs if top is moving right (positive) and n is moving left (negative)
+                if (top > 0 && n < 0) {
+                    int absTop = Math.abs(top);
+                    int absN = Math.abs(n);
+
+                    if (absN > absTop) {
+                        dq.removeLast(); 
+                    } else if (absN == absTop) {
+                        dq.removeLast(); 
+                        idx++;
+                    } else {
+                        idx++;
                     }
+                } else {
+                    dq.addLast(n);
+                    idx++;
                 }
             }
         }
-        
-        // Convert stack to array
-        int[] array = new int[stack.size()];
-        for (int i = stack.size() - 1; i >= 0; i--) {
-            array[i] = stack.get(i);
+
+        // Convert deque to array
+        int size = dq.size();
+        int[] res = new int[size];
+        for (int i = 0; i < size; i++) {
+            res[i] = dq.pollFirst();
         }
-        return array;
+
+        return res;
     }
 }
