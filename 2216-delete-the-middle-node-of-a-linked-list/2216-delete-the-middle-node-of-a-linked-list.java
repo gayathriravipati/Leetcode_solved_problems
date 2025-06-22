@@ -17,20 +17,20 @@ class Solution {
         if (head == null || head.next == null) {
             return null;
         }
-        
+
         ListNode dummy = head;
-        int len = 1;
+        int len = 0;
         
-        while(dummy.next != null){
+        while(dummy != null){
             len++;
             dummy = dummy.next;
         }
 
         int middle = len / 2;
-        int cnt = 1;
+        int cnt = 0;
         dummy = head;
 
-        while(cnt < middle){
+        while(cnt < middle-1){
             dummy = dummy.next;
             cnt++;
         }
