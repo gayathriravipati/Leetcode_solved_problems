@@ -279,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1894-merge-strings-alternately) |
+| [2470-removing-stars-from-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3194-find-words-containing-character](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3194-find-words-containing-character) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -321,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0937-online-stock-span) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2470-removing-stars-from-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Monotonic Stack
@@ -344,5 +346,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
+| [2470-removing-stars-from-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2470-removing-stars-from-a-string) |
 | [3893-generate-tag-for-video-caption](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3893-generate-tag-for-video-caption) |
 <!---LeetCode Topics End-->
