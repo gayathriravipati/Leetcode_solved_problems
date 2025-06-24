@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -154,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Breadth-First Search
