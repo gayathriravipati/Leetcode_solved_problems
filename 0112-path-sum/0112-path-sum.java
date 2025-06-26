@@ -13,36 +13,53 @@
  *     }
  * }
  */
+
+public class Pair{
+    TreeNode node;
+    int val;
+
+    Pair(TreeNode node, int val){
+        this.node = node;
+        this.val = val;
+    }
+}
+
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
+
         if(root==null){
             return false;
         }
-        
-        Queue<Pair<TreeNode, Integer>> nodeQueue = new LinkedList<>();
-        nodeQueue.add(new Pair<>(root, root.val));
-        
-        while(!nodeQueue.isEmpty()){
-            var top = nodeQueue.poll();
-            TreeNode node = top.getKey();
-            int sum = top.getValue();
-            // System.out.println(node.val + " " + sum);
-            
+
+        Stack<Pair> st = new Stack<>();
+        st.push(new Pair(root, root.val));
+
+        while(!st.isEmpty()){
+            Pair current = st.pop();
+            TreeNode node = current.node;
+            int value = current.val;
+            // System.out.println("cv" + node.val + " " +  value);
+
+            //If the current node is a leaf node
+            if(node.left == null && node.right == null){
+                if(value == targetSum){
+                    return true;
+                }
+            }
+
             if(node.left != null){
-                int val = sum + node.left.val;
-                nodeQueue.add(new Pair<>(node.left,val));
+                int t = value + node.left.val;
+                // System.out.println("tolEFT" + " "  + node.left.val + " " + t);
+                st.push(new Pair(node.left, t));
             }
-            
+
             if(node.right != null){
-                int val = sum + node.right.val;
-                nodeQueue.add(new Pair<>(node.right,val));
-            }
-            
-            if(node.left == null && node.right == null && sum == targetSum){
-                return true;
+                int t = value + node.right.val;
+                // System.out.println("toR8" + " "  + node.right.val + " " + t);
+                st.push(new Pair(node.right, t));
             }
         }
-        
+
         return false;
     }
 }
