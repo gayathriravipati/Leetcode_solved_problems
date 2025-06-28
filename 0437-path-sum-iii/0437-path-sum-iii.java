@@ -1,47 +1,28 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     int cnt = 0;
-    Map<Long, Integer> mp = new HashMap<>();
-    int k;
-    
+    int target;
+
     public int pathSum(TreeNode root, int targetSum) {
-        this.k = targetSum;
-        dfs(root, 0L);
+        this.target = targetSum;
+        HashMap<Long, Integer> map = new HashMap<>();
+        map.put(0L, 1); // Initialize for paths that start at root
+        dfs(root, 0L, map);
         return cnt;
     }
-    
-    public void dfs(TreeNode node, long sum){
-        if(node == null){
-            return;
-        }
-        
+
+    private void dfs(TreeNode node, long sum, HashMap<Long, Integer> map) {
+        if (node == null) return;
+
         sum += node.val;
-        
-        if(sum == k){
-            cnt++;
-        }
-        
-        cnt += mp.getOrDefault(sum - k, 0);
-        
-        mp.put(sum, mp.getOrDefault(sum, 0) + 1);
-        
-        dfs(node.left, sum);
-        dfs(node.right, sum);
-        
-        mp.put(sum, mp.get(sum) - 1);
+
+        cnt += map.getOrDefault(sum - target, 0);
+
+        map.put(sum, map.getOrDefault(sum, 0) + 1);
+
+        dfs(node.left, sum, map);
+        dfs(node.right, sum, map);
+
+        // Backtrack: remove current prefix sum
+        map.put(sum, map.get(sum) - 1);
     }
 }
