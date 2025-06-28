@@ -9,32 +9,36 @@
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        Map<TreeNode,TreeNode> parent = new HashMap<>();
-        Stack<TreeNode> stack = new Stack<>();
-        Set<TreeNode> ancestors = new HashSet<>();
-        stack.push(root);
-        parent.put(root,null);
-        
-        while(!parent.containsKey(p) || !parent.containsKey(q)){
-            TreeNode node = stack.pop();
-            if(node.left!=null){
-                stack.push(node.left);
-                parent.put(node.left, node);
+        HashMap<TreeNode, TreeNode> mp = new HashMap<>();
+        mp.put(root, null);
+
+        Stack<TreeNode> st = new Stack<>();
+        st.add(root);
+
+        while(!st.isEmpty()){
+            TreeNode top = st.pop();
+            if(top.left != null){
+                mp.put(top.left , top);
+                st.add(top.left);
             }
-            if(node.right!=null){
-                stack.push(node.right);
-                parent.put(node.right, node);
+            if(top.right != null){
+                mp.put(top.right, top);
+                st.add(top.right);
             }
         }
+
+        Set<TreeNode> uniqueNode = new HashSet<>();
         
-        while(p!=null){
-            ancestors.add(p);
-            p = parent.get(p);
+        while(mp.containsKey(p)){
+            uniqueNode.add(p);
+            p = mp.get(p);
         }
-        
-        while(!ancestors.contains(q)){
-            q = parent.get(q);
+
+        while(!uniqueNode.contains(q)){
+            q = mp.get(q);
         }
+
         return q;
+
     }
 }
