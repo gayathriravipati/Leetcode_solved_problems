@@ -190,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
 ## Linked List
@@ -218,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0437-path-sum-iii) |
 | [0904-leaf-similar-trees](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0904-leaf-similar-trees) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -229,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0437-path-sum-iii) |
 | [0904-leaf-similar-trees](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0904-leaf-similar-trees) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -239,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0437-path-sum-iii) |
 | [0904-leaf-similar-trees](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0904-leaf-similar-trees) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Backtracking
 |  |
