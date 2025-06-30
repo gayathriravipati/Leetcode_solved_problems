@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3885-count-special-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3885-count-special-triplets) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
+| [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -335,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3893-generate-tag-for-video-caption](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3893-generate-tag-for-video-caption) |
+| [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -355,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -403,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2470-removing-stars-from-a-string) |
 | [3893-generate-tag-for-video-caption](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3893-generate-tag-for-video-caption) |
+| [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
 ## Queue
 |  |
 | ------- |
