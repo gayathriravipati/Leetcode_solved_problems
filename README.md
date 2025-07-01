@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0199-binary-tree-right-side-view) |
+| [0871-keys-and-rooms](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0871-keys-and-rooms) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0386-lexicographical-numbers) |
 | [0437-path-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0437-path-sum-iii) |
+| [0871-keys-and-rooms](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0904-leaf-similar-trees) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -430,4 +432,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0783-search-in-a-binary-search-tree) |
+## Graph
+|  |
+| ------- |
+| [0871-keys-and-rooms](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0871-keys-and-rooms) |
 <!---LeetCode Topics End-->
