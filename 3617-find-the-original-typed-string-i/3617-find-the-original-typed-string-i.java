@@ -9,10 +9,8 @@ class Solution {
                 cnt++;
             }
             else{
-                // System.out.println(ch + " " + cnt);
                 if(cnt > 1){
                     possibleCount = possibleCount + (cnt - 1);
-                    //  System.out.println(possibleCount);
                 }
                 ch = word.charAt(i);
                 cnt = 1;
@@ -25,4 +23,20 @@ class Solution {
 
         return possibleCount;
     }
+
 }
+
+
+// //Best solution, see how simple the code can be
+// class Solution {
+
+//     public int possibleStringCount(String word) {
+//         int n = word.length(), ans = 1;
+//         for (int i = 1; i < n; ++i) {
+//             if (word.charAt(i - 1) == word.charAt(i)) {
+//                 ++ans;
+//             }
+//         }
+//         return ans;
+//     }
+// }
