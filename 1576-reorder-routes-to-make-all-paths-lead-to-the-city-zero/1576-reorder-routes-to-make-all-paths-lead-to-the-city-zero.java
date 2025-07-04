@@ -1,3 +1,4 @@
+//Learnt from other user submissio and neetcode.
 class Solution {
     public int minReorder(int n, int[][] connections) {
         //Let's build adjacency list
