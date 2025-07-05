@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
 | [0951-partition-array-into-disjoint-intervals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0951-partition-array-into-disjoint-intervals) |
+| [1036-rotting-oranges](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1306-minimum-absolute-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1306-minimum-absolute-difference) |
 | [1319-unique-number-of-occurrences](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1319-unique-number-of-occurrences) |
@@ -152,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0073-set-matrix-zeroes) |
+| [1036-rotting-oranges](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2428-equal-row-and-column-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2428-equal-row-and-column-pairs) |
@@ -182,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0871-keys-and-rooms) |
+| [1036-rotting-oranges](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1544-count-good-nodes-in-binary-tree) |
