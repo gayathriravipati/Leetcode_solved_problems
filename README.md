@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1306-minimum-absolute-difference](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1306-minimum-absolute-difference) |
 | [1319-unique-number-of-occurrences](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1656-count-good-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1656-count-good-triplets) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1319-unique-number-of-occurrences](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -134,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0594-longest-harmonious-subsequence) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1777-determine-if-two-strings-are-close) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
