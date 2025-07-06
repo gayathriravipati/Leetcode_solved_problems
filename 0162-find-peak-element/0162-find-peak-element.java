@@ -1,3 +1,4 @@
+//Learnt from neetcode
 class Solution {
     public int findPeakElement(int[] nums) {
         int n = nums.length;
