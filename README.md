@@ -321,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0069-sqrtx](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0300-longest-increasing-subsequence) |
+| [0374-guess-number-higher-or-lower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0374-guess-number-higher-or-lower) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3643-zero-array-transformation-ii) |
@@ -489,4 +490,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2413-smallest-number-in-infinite-set](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2413-smallest-number-in-infinite-set) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
