@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3790-fruits-into-baskets-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3790-fruits-into-baskets-ii) |
 | [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 | [3876-transform-array-to-all-equal-elements](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3876-transform-array-to-all-equal-elements) |
 | [3885-count-special-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3885-count-special-triplets) |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3643-zero-array-transformation-ii) |
+| [3790-fruits-into-baskets-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3790-fruits-into-baskets-ii) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -350,6 +352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [3790-fruits-into-baskets-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3790-fruits-into-baskets-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -474,6 +477,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2470-removing-stars-from-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2470-removing-stars-from-a-string) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3790-fruits-into-baskets-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3790-fruits-into-baskets-ii) |
 | [3893-generate-tag-for-video-caption](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3893-generate-tag-for-video-caption) |
 | [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
 ## Queue
@@ -509,6 +513,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2413-smallest-number-in-infinite-set](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2413-smallest-number-in-infinite-set) |
+| [3790-fruits-into-baskets-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3790-fruits-into-baskets-ii) |
 ## Interactive
 |  |
 | ------- |
