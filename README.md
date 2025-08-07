@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0739-daily-temperatures) |
 | [0907-koko-eating-bananas](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0907-koko-eating-bananas) |
+| [0940-fruit-into-baskets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0940-fruit-into-baskets) |
 | [0951-partition-array-into-disjoint-intervals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0951-partition-array-into-disjoint-intervals) |
 | [1036-rotting-oranges](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0141-linked-list-cycle) |
 | [0560-subarray-sum-equals-k](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0594-longest-harmonious-subsequence) |
+| [0940-fruit-into-baskets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0940-fruit-into-baskets) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1319-unique-number-of-occurrences](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -405,6 +407,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0594-longest-harmonious-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0643-maximum-average-subarray-i) |
+| [0940-fruit-into-baskets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
