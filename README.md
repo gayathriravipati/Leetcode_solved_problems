@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0011-container-with-most-water) |
+| [0040-combination-sum-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0040-combination-sum-ii) |
 | [0073-set-matrix-zeroes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0118-pascals-triangle) |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
@@ -318,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0040-combination-sum-ii) |
 | [0113-path-sum-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0113-path-sum-ii) |
 | [0216-combination-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0216-combination-sum-iii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
