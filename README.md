@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0216-combination-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0300-longest-increasing-subsequence) |
@@ -318,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0113-path-sum-ii) |
+| [0216-combination-sum-iii](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0216-combination-sum-iii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Combinatorics
 |  |
