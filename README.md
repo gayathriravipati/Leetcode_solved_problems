@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0368-largest-divisible-subset) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1236-n-th-tribonacci-number](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1236-n-th-tribonacci-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2050-count-good-numbers) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0416-partition-equal-subset-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1236-n-th-tribonacci-number](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1236-n-th-tribonacci-number) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2262-solving-questions-with-brainpower](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2262-solving-questions-with-brainpower) |
@@ -425,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
+| [1236-n-th-tribonacci-number](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1236-n-th-tribonacci-number) |
 ## Trie
 |  |
 | ------- |
