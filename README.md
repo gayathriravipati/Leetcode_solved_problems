@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0368-largest-divisible-subset) |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0118-pascals-triangle) |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
@@ -330,6 +332,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 ## Enumeration
