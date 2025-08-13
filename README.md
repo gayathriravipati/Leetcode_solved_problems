@@ -240,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0118-pascals-triangle) |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0198-house-robber) |
@@ -391,6 +392,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0072-edit-distance](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0345-reverse-vowels-of-a-string) |
