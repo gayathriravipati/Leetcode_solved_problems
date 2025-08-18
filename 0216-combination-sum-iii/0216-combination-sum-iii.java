@@ -1,27 +1,29 @@
-public class Solution {
-    private List<List<Integer>> res = new ArrayList<>();
-    private int target;
+class Solution {
+    List<List<Integer>> combinations = new ArrayList<>();
+    int k;
+    int target;
 
-    public List<List<Integer>> combinationSum3(int k, int target) {
-        this.target = target;
-        backTrack(1, 0, new ArrayList<>(), k);
-        return res;
+    public List<List<Integer>> combinationSum3(int k, int n) {
+        this.k = k;
+        this.target = n;
+        backTrack(1, 0, new ArrayList<>());
+        return combinations;
     }
 
-    public void backTrack(int start, int sum, List<Integer> temp, int k){
-        if (sum > target || temp.size() > k) {
+    private void backTrack(int idx, int sum, List<Integer> path){
+        if(sum == target && path.size() == k){
+            combinations.add(new ArrayList<>(path));
             return;
         }
 
-        if (sum == target && temp.size() == k) {
-            res.add(new ArrayList<>(temp)); 
+        if(sum > target || path.size() > k){
             return;
         }
 
-        for (int j = start; j <= 9; j++) {
-            temp.add(j);
-            backTrack(j + 1, sum + j, temp, k);
-            temp.remove(temp.size() - 1); 
+        for(int i = idx; i<=9; i++){
+            path.add(i);
+            backTrack(i+1, sum + i, path);
+            path.remove(path.size()-1);
         }
     }
 }
