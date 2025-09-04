@@ -176,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3321-type-of-triangle](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3321-type-of-triangle) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3830-find-closest-person](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3830-find-closest-person) |
 | [3864-count-the-number-of-computer-unlocking-permutations](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3864-count-the-number-of-computer-unlocking-permutations) |
 ## Matrix
 |  |
