@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0191-number-of-1-bits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -539,6 +540,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0215-kth-largest-element-in-an-array) |
 ## Quickselect
 |  |
