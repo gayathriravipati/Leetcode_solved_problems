@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0338-counting-bits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/2308-divide-array-into-equal-pairs) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0300-longest-increasing-subsequence) |
+| [0338-counting-bits](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/0416-partition-equal-subset-sum) |
