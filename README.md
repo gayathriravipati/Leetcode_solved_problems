@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3885-count-special-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3885-count-special-triplets) |
 | [3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3894-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues) |
 | [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3885-count-special-triplets](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3885-count-special-triplets) |
 ## Math
 |  |
@@ -445,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3893-generate-tag-for-video-caption](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3893-generate-tag-for-video-caption) |
 | [3905-partition-string](https://github.com/gayathriravipati/Leetcode_solved_problems/tree/master/3905-partition-string) |
 ## Sliding Window
