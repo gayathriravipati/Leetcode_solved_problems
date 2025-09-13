@@ -25,16 +25,16 @@ class Solution {
             }
         }
 
-        int max_cnt = 0;
+        int maxCnt = 0;
         int[] langCnt = new int[n + 1];
 
         for(int i : noBond){
             for(int lang : languages[i]){
                 langCnt[lang]++;
-                max_cnt = Math.max(langCnt[lang], max_cnt);
+                maxCnt = Math.max(langCnt[lang], maxCnt);
             }
         }
 
-        return (noBond.size() - max_cnt);
+        return (noBond.size() - maxCnt);
     }
 }
