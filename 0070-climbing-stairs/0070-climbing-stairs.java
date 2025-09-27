@@ -1,7 +1,9 @@
 class Solution {
     public int climbStairs(int n) {
-
-        if(n == 1){
+        //This is a pattern to find the fibonacci number 1- 1 , 2 - 2, 3 => 3, 
+        // 4 - 1,1,1,1.  2,2   1,1,2   2,1,1
+        // 1 2 3 
+        if(n==1){
             return 1;
         }
 
@@ -9,14 +11,15 @@ class Solution {
             return 2;
         }
 
-        int[] dp = new int[n+1];
-        dp[n] = 0;
-        dp[n-1] = 1;
+        int oneStepBack = 2;
+        int twoStepBack = 1;
+        int res = 0;
 
-        for(int i = n-2; i>=0; i--){
-            dp[i] = 1 + Math.max(dp[i+1], dp[i+2]);
+        for(int i = 3; i <= n; i++){
+            res = twoStepBack + oneStepBack;
+            twoStepBack = oneStepBack;
+            oneStepBack = res;
         }
-
-        return dp[0];
+        return res;
     }
 }
