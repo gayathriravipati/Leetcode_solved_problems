@@ -1,22 +1,22 @@
 class Solution {
     public int rob(int[] nums) {
-        int n = nums.length;
-        int[] dp = new int[n];
-
-        if(n == 1){
+        int len = nums.length;
+         
+        if(len == 1){
             return nums[0];
         }
 
-        if(n == 2){
+        if(len == 2){
             return Math.max(nums[0], nums[1]);
         }
 
-        dp[n-1] = nums[n-1];
-        dp[n-2] = Math.max(nums[n-1], nums[n-2]);
+        int[] robbedAmount = new int[len + 1];
+        robbedAmount[len-1] = nums[len-1];
 
-        for(int i=n-3; i>=0; i--){
-            dp[i] = Math.max(dp[i+1], (dp[i+2] + nums[i]));
+        for(int i = len-2; i >=0; i--){
+            robbedAmount[i] = Math.max(robbedAmount[i+2] + nums[i], robbedAmount[i+1]);
         }
-        return dp[0];
+
+        return robbedAmount[0];
     }
 }
